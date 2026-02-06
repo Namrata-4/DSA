@@ -15,10 +15,11 @@ int main(){
         if(arr[i]>max){
             max=arr[i];
         }
-        else if (arr[])
+        else if (arr[i]<min)
         {
-            /* code */
+           min=arr[i];
         }
         
     }
+    cout<<"array max and min elements :"<<max<< "and" <<min;
 }
