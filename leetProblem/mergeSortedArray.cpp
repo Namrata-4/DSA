@@ -39,7 +39,7 @@ using namespace std;
         cin >> nums2[i];
     }
     merge(nums1, m, nums2, n);
-    cout << "Merged Array: ";
+    cout << " after adding two Merged Array the final araay : ";
     for (int x : nums1) {
         cout << x << " ";
     }
